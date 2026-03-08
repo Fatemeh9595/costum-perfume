@@ -1,0 +1,27 @@
+.payment-page {
+  min-height: calc(100vh - 120px);
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: #f8f5f1;
+}
+
+.payment-card {
+  width: min(560px, 100%);
+  background: #ffffff;
+  border: 1px solid #e7ddd5;
+  border-radius: 18px;
+  padding: 1.4rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.payment-card h2 {
+  margin: 0 0 0.6rem;
+  color: #2a1d18;
+}
+
+.payment-card p {
+  margin: 0;
+  color: #5e4e45;
+}
